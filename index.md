@@ -3,7 +3,7 @@
 Sorry but the page you are looking for does not exist, but we are here to help you.
 
 
-### How to use this service works
+### How to use this service
 
 This service can be used to remotely access your hardware. All you need to know is the barcode (or ICCID) of the SIM card and the port on the hardware you would like to access.
 Preconditions
@@ -13,11 +13,9 @@ Preconditions
 - The APN in your device is set correctly. Your APN is printed on the packing slip that came with the SIM card.
 - Some devices are protected with an IP whitelist and cannot be accessed from all source IPs.
 
-### Define your URL
+### Define your personal URL
 
-Obtain the barcode of your SIM card from our platform and open the port you want to access remotely on your hardware.
-
-With these variables, you can determine your personal URL.
+Obtain the barcode of your SIM card from our platform and open the port you want to access remotely on your hardware. With these variables, you can determine your personal URL.
 
 The URL structure for this service is:
 
