@@ -38,3 +38,5 @@ Make sure to use this exact format. Once access is granted by our server, you ar
  
 
 Should you have any further questions, please open a ticket in our portal.
+
+<p style="text-align: left;"><img src="https://static1.squarespace.com/static/5babc688fb18203f4f8d8e80/t/5c3c6a2a88251b8b3c772650/1547463210359/Olivia+Logo.png" alt="" width="235" height="84" /></p>
