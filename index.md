@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## 🔎 Oops! Page Not Be Found
 
-You can use the [editor on GitHub](https://github.com/olivia-wireless/public-access/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Sorry but the page you are looking for does not exist, but we are here to help you.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### How to use this service works
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This service can be used to remotely access your hardware. All you need to know is the barcode (or ICCID) of the SIM card and the port on the hardware you would like to access.
+Preconditions
 
-```markdown
-Syntax highlighted code block
+- Your card is provisioned with a public IP route
+- Your device is successfully connected to the network
+- The APN in your device is set correctly. Your APN is printed on the packing slip that came with the SIM card.
+- Some devices are protected with an IP whitelist and cannot be accessed from all source IPs.
 
-# Header 1
-## Header 2
-### Header 3
+### Define your URL
 
-- Bulleted
-- List
+Obtain the barcode of your SIM card from our platform and open the port you want to access remotely on your hardware.
 
-1. Numbered
-2. List
+With these variables, you can determine your personal URL.
 
-**Bold** and _Italic_ and `Code` text
+The URL structure for this service is:
 
-[Link](url) and ![Image](src)
-```
+https://access.oliviawireless.io/id/{SIM barcode}/{port}/
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+_Example: https://access.oliviawireless.io/id/8912345678901234567/80/_
 
-### Jekyll Themes
+Make sure to use this exact format. Once access is granted by our server, you are redirected to the correct SIM and port.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/olivia-wireless/public-access/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Tips and tricks
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- If you are not sure what port to enter, please try port 80
+- When possible, please only use random ports on your device.
+- You can use this service for any port on your device.
+- You can also set port forwarding on your router and use that to access hardware in the LAN network.
+
+ 
+
+Should you have any further questions, please open a ticket in our portal.
